@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+}
+
+.post {
+    border: 3px solid rgb(129, 125, 125);
+    margin: 50px;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    font-size: 60px;
+    font-family: Papyrus;
+    background-color: black;
+    color: grey;
+}
+
+.post h1 {
+    color: white;
+    font-size: 60px;
+    font-family: fantasy;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+body h1:nth-child(2) {
+    color: white;
+    padding-left: 40px;
+}
+
+#comment1 {
+    color: white;
+    font-size: 30px;
+    font-family: Papyrus;
+    padding-left: 400px;
+}
+
+hr {
+    width: 1580px;
+    margin-left: 250px;
+}
+
+#comment2 {
+    color: white;
+    font-size: 30px;
+    font-family: Papyrus;
+    padding-left: 400px;
+    margin-top: 50px;
+}
+
+.comment {
+    position: fixed;
+    display: flex;
+    align-items: center;
+    bottom: 170px;
+}
+
+#text1 {
+    margin-top: 70px;
+    margin-left: 250px;
+    width: 800px;
+    height: 100px;
+    font-size: 40px;
+    outline: none;
+    font-family: Papyrus;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+button {
+    width: 200px;
+    height: 100px;
+    margin-top: 70px;
+    margin-left: 30px;
+    font-size: 40px;
+    font-family: Papyrus;
+}

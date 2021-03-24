@@ -1,0 +1,168 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+ * {
+    margin: 0;
+    padding: 0;
+ }
+
+.nav{
+    display: flex;
+    justify-content: flex-end;
+    background-color: rgb(246, 175, 189);
+}
+.nav_home , .nav_project{
+    padding: 1% 1%;
+}
+a:link{
+    color: whitesmoke;
+}
+a:visited{
+    color: whitesmoke;
+}
+a {
+    text-decoration: none;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-size: 20px;
+}
+.container_Home{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Caveat', cursive;
+    color: whitesmoke;
+    background-color: rgb(246, 175, 189);
+}
+.content_Home p{
+    font-size: 15px;
+    line-height: 50px;
+    align-self: center;
+}
+.content_Home h1{
+    font-size: 50px;
+}
+.pic_home {
+    width: 100%;
+    position: relative;
+}
+.pic_home img {
+    width: 100%;
+    filter: brightness(0.25);
+}
+.content_Home{
+    position: absolute;
+    left: 40%;
+}
+
+.container_introduce{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    background-color: rgb(246, 175, 189);
+}
+.pic_introduce{
+    padding: 5% 5%;
+    text-align: center;
+}
+.pic_introduce img{
+    width: 60%;
+}
+.content_introduce{
+    padding: 5% 5%;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.content_introduce h2{
+    font-size: 50px;
+}
+.content_introduce p{
+    padding: 2% 0%;
+    font-size: 15px;
+}
+/* ////////////////// */
+.container_skill{
+    text-align: center;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    background-color: whitesmoke;
+    
+}
+.container_skill h1{
+    padding: 2% 0%;
+    font-size: 30px;
+    
+}
+.interesting{
+    display: flex;
+    font-family: 'Caveat', cursive;
+    justify-content: center;
+    
+}
+.content {
+    text-align: center;
+}
+.content{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.interesting p{
+    padding: 10% 10%;
+    font-size: x-large;
+}
+.interesting i{
+    
+    font-size: 50px;
+}
+.game , .music, .sleep, .takepicture ,.petcat{
+    padding: 5% 5%;
+    text-align: center;
+} 
+.skill{
+    display: flex;
+    font-family: 'Caveat', cursive;
+    justify-content: center;
+}
+.img_skill img{
+    width: 30%;
+}
+.ps ,.ai,.vegas {
+    padding: 5% 5%;
+    text-align: center;
+}
+.ps p,.ai p,.vegas p{
+    padding: 1% 10%;
+    font-size: x-large;
+}
+.assignment{
+    background-color: rgb(246, 175, 189);
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    text-align: center;
+    
+}
+.assignment h1{
+    padding: 1% 0%;
+    font-size: 50px;
+}
+.content_assign{
+    display: flex;
+    padding: 1% 0%;
+    justify-content: space-evenly;
+
+}
+.content_assign a{
+    transition: 0.6s;
+    font-size: 30px;
+}
+.content_assign a:hover{
+    border-bottom: 2px solid black;
+    cursor: pointer;
+    padding: 5%;
+}
+footer{
+    background-color: rgb(246, 175, 189);
+    padding: 1%;
+    text-align: center;
+}
+
